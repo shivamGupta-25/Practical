@@ -9,7 +9,7 @@ int main(){
     string msg, crc, encoded = "";
     cout << "Enter the message: ";
     getline(cin, msg);
-    cout << "Enter the CRC generator polunomial: ";
+    cout << "Enter the CRC generator polynomial: ";
     getline(cin, crc);
 
     int msg_len = msg.length();
